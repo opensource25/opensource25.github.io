@@ -5,5 +5,5 @@ function random(min, max) {
 
 function onload() {
     var img_number = random(1, 2)
-    $("#logo").attr("src", `logo${random(1, 2)}.png`)
+    $("#logo").attr("src", `logo${random(1, 2)}.svg`)
 }
