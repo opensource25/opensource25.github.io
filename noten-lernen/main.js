@@ -10,7 +10,7 @@ function onload() {
 }
 
 function update_note_amount() {
-  var note_amount = test123
+  var note_amount = "test123"
   console.log(note_amount);
   console.log($("#note-amount-range-slider").value);
   $("#note-amount").text(`Noten Anzahl: ${note_amount}`);
