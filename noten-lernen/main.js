@@ -4,7 +4,7 @@ function random(min, max) {
 
 
 function onload() {
-    alert("test6")
+    alert("test7")
     $("#logo").attr("src", `logo${random(1, 2)}.svg`);
     update_note_amount();
 }
