@@ -1,8 +1,8 @@
 .transparent {
-    height: 1000px;
-    width: 1000px;
+    height: 500px;
+    width: 1500px;
     border-radius: 5px;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.2;
     margin: 50px;
 }
