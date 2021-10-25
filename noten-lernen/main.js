@@ -4,6 +4,12 @@ function random(min, max) {
 
 
 function onload() {
-    var img_number = random(1, 2)
-    $("#logo").attr("src", `logo${random(1, 2)}.svg`)
+  alert("test")
+    $("#logo").attr("src", `logo${random(1, 2)}.svg`);
+    update_note_amount();
+}
+
+function update_note_amount() {
+  var note_amount = $("#note-amount-range-slider").value();
+  $("#note-amount").text(`Noten Anzahl: ${note_amount}`);
 }
