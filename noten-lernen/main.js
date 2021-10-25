@@ -14,3 +14,5 @@ function update_note_amount() {
   console.log(note_amount)
   $("#note-amount").text(`Noten Anzahl: ${note_amount}`);
 }
+
+$("#note-amount-range-slider").onmouseover = update_note_amount;
